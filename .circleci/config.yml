@@ -36,5 +36,5 @@ jobs:
       # run tests!
       - run: yarn test
       - run: yarn build
-      - run: yarn ghpages:deploy
+      #      - run: yarn ghpages:deploy
       - run: yarn netlify:deploy
